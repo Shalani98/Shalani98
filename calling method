@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+
+
+   static void myThink(String username){
+
+       System.out.println(username + " is correct and go to the other section");
+}
+
+    public static void main(String[]args){
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("type the username:");
+        String username= input.nextLine();
+        System.out.println(username );
+
+  myThink("Shalani");
+
+
+
+
+
+    }
+
+
+}
