@@ -1,0 +1,18 @@
+
+public class Main {
+    public Main() {
+    }
+
+    public static void main(String[] args) {
+        String sen = "Hello";
+        String nes = "";
+
+        for(int i = 0; i < sen.length(); ++i) {
+            
+            nes = sen.charAt(i) + nes;
+        }
+
+        System.out.println(sen);
+        System.out.println(nes);
+    }
+}
